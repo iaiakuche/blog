@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header class="nav">
         <nav class="links" id="links">
@@ -23,15 +24,22 @@
     <main>
         <aside class="ad left">Publicidad o destacados</aside>
 
-        <section class="search_bar">
-            <h1>Qué te interesa aprender hoy?</h1>
-            <div class="contenedor" id="contenedor">
-                <input type="text" id="input" placeholder="Escribe pollo, cebolla, etc">
+        <div class="contenedor">
+            <section class="search_bar">
+                <p>ENCUENTRA TU PROXIMA RECETA</p>
+                <h1>¿Qué te interesa aprender hoy?</h1>
+                <div class="contenedor_busqueda" id="contenedor_busqueda">
+                    <input type="text" id="input" placeholder="Buscar...">
 
-                <ul class="sugerencias" id="sugerencias"></ul>
-            </div>
-        </section>
+                    <ul class="sugerencias" id="sugerencias"></ul>
+                </div>
+                <h5>Ingresa al menos un ingrediente de lo que tengas en tu cocina para ver recetas</h5>
+            </section>
 
+            <samp id="recetas_count">Recetas encontradas</samp>
+            <div class="recetas_grid" id="recetas"></div>
+        </div>
+            
         <aside class="ad right">Publicidad o destacados</aside>
     </main>
 
