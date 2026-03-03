@@ -1,0 +1,13 @@
+[
+    {
+        "titulo": "Pollo al horno",
+        "ingredientes": ["pollo", "lechuga"],
+        "imagen": "pollo.jpg"
+    },
+
+    {
+        "titulo": "Pollo al agillo",
+        "ingredientes": ["pollo"],
+        "imagen": "pollo_2.jpg"
+    }
+]
