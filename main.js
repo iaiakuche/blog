@@ -14,10 +14,14 @@ fetch("recetas.json")
     .then(responce => responce.json())
     .then(data => {
         recetas = data;
+        console.log("Recetas cargadas:", recetas.length);
+        console.log("Primera receta:", recetas[0]);
 
         const set = new Set();
-        recetas.forEach(r => r.tags.forEach(i => set.add(i)));
+        // Normalizar todos los tags a minúsculas
+        recetas.forEach(r => r.tags.forEach(i => set.add(i.toLowerCase())));
         ingredientes = Array.from(set);
+        console.log("Ingredientes disponibles:", ingredientes);
     })
     .catch(error => console.error('Error cargando recetas', error));
 
@@ -56,16 +60,19 @@ input.addEventListener("input", () => {
 });
 
 function addTag(text){
-    seleccionados.push(text);
+    // Normalizar a minúsculas
+    const textoNormalizado = text.toLowerCase();
+    seleccionados.push(textoNormalizado);
 
     const tag = document.createElement("div");
     tag.className = "tag";
 
-    tag.innerHTML = `${text}<button>X</button>`;
+    const textoMostrar = text.charAt(0).toUpperCase() + text.slice(1);
+    tag.innerHTML = `${textoMostrar}<button>X</button>`;
 
     tag.querySelector("button").addEventListener("click", () => {
         tag.remove();
-        seleccionados = seleccionados.filter(t => t !== text);
+        seleccionados = seleccionados.filter(t => t !== textoNormalizado);
         if(seleccionados.length == 0){
             count_recetas.style.display = "none";
         }
@@ -80,19 +87,29 @@ function addTag(text){
 }
 
 function showRecipes(){
+    console.log("=== showRecipes llamado ===");
+    console.log("Seleccionados:", seleccionados);
+    console.log("Total recetas:", recetas.length);
+    
     recetas_grid.innerHTML = "";
 
     if(seleccionados.length == 0){
         return;
     }
 
-    const recetasFiltradas = recetas.filter(receta => 
-        seleccionados.every(ingrediente =>
-            receta.tags.some(recTag =>
-                recTag.toLowerCase() == ingrediente.toLowerCase()
-            )
-        )
-    );
+    const recetasFiltradas = recetas.filter(receta => {
+        console.log("Chequeando receta:", receta.titulo, "con tags:", receta.tags);
+        const cumple = seleccionados.every(ingrediente => {
+            const encontrado = receta.tags.some(recTag =>
+                recTag.toLowerCase() === ingrediente
+            );
+            console.log(`  ¿Tiene '${ingrediente}'?`, encontrado);
+            return encontrado;
+        });
+        return cumple;
+    });
+
+    console.log("Recetas filtradas:", recetasFiltradas.length);
 
     if(recetasFiltradas.length !== 0){
         count_recetas.textContent = `${recetasFiltradas.length} recetas encontradas:`;
