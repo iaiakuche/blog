@@ -4,13 +4,26 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #FAF7F2;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+}
+
+.contenedor{
+    display: flex;
+    /*align-items: center;*/
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px;
 }
 
 .nav{
@@ -23,6 +36,7 @@ main{
     padding: 15px 30px;
     background-color: black;
     color: white;
+    z-index: 10;
 }
 
 .links{
@@ -49,19 +63,31 @@ main{
 }
 
 .ad{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: #f5edff;
 }
+
 .search_bar{
-    height:40vh;
+    /*height:40vh;*/
+    min-height: 40hv;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     max-width: 700px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 50px auto;
 }
 
-.contenedor{
+.search_bar p{
+    color: rgb(179, 117, 47);
+    font-size: 0.80rem;
+}
+
+.contenedor_busqueda{
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -72,18 +98,37 @@ main{
     padding: 8px;
 }
 
-.search_bar h1{
-    font-size: 1.8rem;
+.contenedor samp{
+    display: none;
     text-align: center;
-    margin: 30px;
+    color: gray;
+    /*padding: 0 10px 20px 0;*/
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid rgb(202, 202, 202);
 }
 
-.contenedor input{
-    width: 100%;
+.search_bar h5{
+    margin-top: 15px;
+    text-align: center;
+    background-color: transparent;
+    color: gray;
+}
+
+.search_bar h1{
+    /*font-family: 'Palyfair Display', Georgia, serif;*/
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.contenedor_busqueda input{
+    flex: 1; /* o width: 100%;*/
     min-width: 150px;
     padding: 0.85rem 0.5rem;
     border: none;
     outline: none;
+    background-color: transparent;
 }
 
 .sugerencias{
@@ -131,6 +176,51 @@ main{
     transition: 0.2s;
 }
 
+.recetas_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.receta_card{
+    position: relative;
+    background-color: white;
+    text-decoration: none;
+    border-bottom: none;
+    overflow: hidden;
+    box-shadow: 0px 4px 24px rgba(20, 10, 4, 0.10);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.receta_card:hover{
+    transform: translateY(6px);
+    box-shadow: 0px 4px 24px rgba(20, 20, 20, 0.50);
+    z-index: 5;
+}
+
+.receta_card h3{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.receta_card h3:hover{
+    color: black;
+}
+
+.receta_card img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
 @media (max-width: 640px){
     .links{
         display: none;
@@ -161,15 +251,28 @@ main{
     }
 
     .search_bar h1{
-        font-size: 1.4rem;
+        font-size: 1.5em;
         text-align: center;
     }
 
+    .search_bar p{
+        text-align: center;
+        font-size: 0.70rem;
+    }
     .links.show{
         display: flex;
     }
 
     .menu{
         display: block;
+    }
+
+    .recetas_grid{
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 14px;
+    }
+
+    .receta_card img{
+        height: 100px;
     }
 }
