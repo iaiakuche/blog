@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta</title>
+
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="recetas.css">
+</head>
+<body>
+
+    <header class="nav">
+        <nav class="links" id="links">
+            <a href="index.html">Inicio</a>
+            <a href="#">Contacto</a>
+            <a href="#">Iniciar sesión</a>
+        </nav>
+        <div class="menu" id="menu">☰</div>
+    </header>
+
+    <main>
+        <div class="contenedor-receta">
+ 
+            <div class="receta-titulo">
+                <h1 id="titulo-receta"></h1>
+                <span class="subtitulo" id="subtitulo-receta"></span>
+            </div>
+ 
+            <div class="top">
+                <div class="descripcion">
+                    <p id="descripcion-receta"></p>
+                    <div class="meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Tiempo</span>
+                            <span class="meta-valor" id="meta-tiempo"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Porciones</span>
+                            <span class="meta-valor" id="meta-porciones"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Dificultad</span>
+                            <span class="meta-valor" id="meta-dificultad"></span>
+                        </div>
+                    </div>
+                </div>
+                <img id="imagen-receta" src="" alt="">
+            </div>
+ 
+            <div class="divider"></div>
+ 
+            <div class="cuerpo">
+                <div class="pasos">
+                    <span class="seccion-titulo">Preparación</span>
+                    <ol id="lista-pasos"></ol>
+                </div>
+
+                <div class="ingredientes">
+                    <span class="seccion-titulo">Ingredientes</span>
+                    <ul id="lista-ingredientes"></ul>
+                </div>
+            </div>
+ 
+            <div class="nota" id="nota-receta" style="display:none">
+                <strong>💡 Consejo:</strong> <span id="nota-texto"></span>
+            </div>
+ 
+            <div class="comentarios">
+                <span class="seccion-titulo">Comentarios</span>
+ 
+                <div class="comentario-form">
+                    <div class="comentario-form-fila">
+                        <input type="text" id="input-nombre" placeholder="Tu nombre" maxlength="40">
+                    </div>
+                    <textarea id="input-texto" placeholder="Escribe tu comentario..." maxlength="500"></textarea>
+                    <button class="btn-comentar" onclick="agregarComentario()">Publicar comentario</button>
+                </div>
+ 
+                <div class="lista-comentarios" id="lista-comentarios">
+                    <div class="comentario-item">
+                        <div class="comentario-meta">
+                            <div class="comentario-avatar">M</div>
+                            <span class="comentario-autor">María G.</span>
+                            <span class="comentario-fecha">Hace 2 días</span>
+                        </div>
+                        <p class="comentario-texto">¡Increíble receta! La hice ayer y quedó perfecta. Lo más difícil fue no dejar que cuajara el huevo, pero con paciencia salió cremosísima.</p>
+                    </div>
+                    <div class="comentario-item">
+                        <div class="comentario-meta">
+                            <div class="comentario-avatar">R</div>
+                            <span class="comentario-autor">Roberto</span>
+                            <span class="comentario-fecha">Hace 5 días</span>
+                        </div>
+                        <p class="comentario-texto">Muy buena explicación, el truco del agua de cocción marca la diferencia. Totalmente recomendada.</p>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </main>
+
+    <script src="receta.js"></script>
+</body>
+</html>
