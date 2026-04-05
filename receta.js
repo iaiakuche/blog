@@ -52,7 +52,6 @@ fetch("recetas.json")
     })
     .catch(error => console.error("Error cargando recetas:", error));
 
-// ── COMENTARIOS ───────────────────────────────────────────────────
 function agregarComentario() {
     const nombre = document.getElementById("input-nombre").value.trim();
     const texto  = document.getElementById("input-texto").value.trim();
