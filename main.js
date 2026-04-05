@@ -18,8 +18,12 @@ fetch("recetas.json")
         console.log("Primera receta:", recetas[0]);
 
         const set = new Set();
-        // Normalizar todos los tags a minúsculas
-        recetas.forEach(r => r.tags.forEach(i => set.add(i.toLowerCase())));
+        recetas.forEach(r => {
+            r.tags.forEach(i => {
+                const tagNormalizado = i.toLowerCase().trim();
+                set.add(tagNormalizado);
+            });
+        });
         ingredientes = Array.from(set);
         console.log("Ingredientes disponibles:", ingredientes);
     })
@@ -36,7 +40,7 @@ document.addEventListener("click", e => {
 });
 
 input.addEventListener("input", () => {
-    const text = input.value.toLowerCase();
+    const text = input.value.toLowerCase().trim();
     sugerencias.innerHTML = "";
 
     if(!text){
@@ -51,7 +55,7 @@ input.addEventListener("input", () => {
 
     lowerCase.forEach(element => {
         const li = document.createElement("li");
-        li.textContent = element;
+        li.textContent = element.charAt(0).toUpperCase() + element.slice(1);
         li.addEventListener("click", () => addTag(element));
         sugerencias.appendChild(li);
     });
@@ -60,8 +64,12 @@ input.addEventListener("input", () => {
 });
 
 function addTag(text){
-    // Normalizar a minúsculas
-    const textoNormalizado = text.toLowerCase();
+    const textoNormalizado = text.toLowerCase().trim();
+    
+    if(seleccionados.includes(textoNormalizado)){
+        return;
+    }
+    
     seleccionados.push(textoNormalizado);
 
     const tag = document.createElement("div");
@@ -100,12 +108,16 @@ function showRecipes(){
     const recetasFiltradas = recetas.filter(receta => {
         console.log("Chequeando receta:", receta.titulo, "con tags:", receta.tags);
         const cumple = seleccionados.every(ingrediente => {
-            const encontrado = receta.tags.some(recTag =>
-                recTag.toLowerCase() === ingrediente
-            );
+            const encontrado = receta.tags.some(recTag => {
+                const tagNormalizado = recTag.toLowerCase().trim();
+                const match = tagNormalizado === ingrediente;
+                console.log(`  Comparando '${tagNormalizado}' === '${ingrediente}': ${match}`);
+                return match;
+            });
             console.log(`  ¿Tiene '${ingrediente}'?`, encontrado);
             return encontrado;
         });
+        console.log("Resultado para", receta.titulo, ":", cumple);
         return cumple;
     });
 
