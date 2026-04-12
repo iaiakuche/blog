@@ -131,5 +131,31 @@
         ],
         "consejo": "No aplastes la hamburguesa mientras se cocina para mantener los jugos.",
         "tags": ["hamburguesa", "carne"]
+    },
+    {
+        "titulo": "Testeo",
+        "subtitulo": "Con tomate y albahaca",
+        "imagen": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "descripcion": "Hamburguesas jugosas hechas en casa con carne bien condimentada, acompañadas de tomate fresco y albahaca para un toque gourmet.",
+        "tiempo": "40 min",
+        "porciones": "4",
+        "dificultad": "Fácil",
+        "ingredientes": [
+            "500 g de carne picada",
+            "1 huevo",
+            "Pan rallado",
+            "Tomate",
+            "Pan de hamburguesa",
+            "Albahaca",
+            "Sal y pimienta"
+        ],
+        "pasos": [
+            "Mezclá carne, huevo y condimentos.",
+            "Formá hamburguesas.",
+            "Cociná en sartén o parrilla.",
+            "Armá con pan, tomate y albahaca."
+        ],
+        "consejo": "No aplastes la hamburguesa mientras se cocina para mantener los jugos.",
+        "tags": ["hamburguesa", "carne"]
     }
 ]
