@@ -2,8 +2,8 @@
     {
         "titulo": "Pollo al horno",
         "subtitulo": "Receta casera clásica",
-        "imagen": "img/pollo.jpg",
-        "descripcion": "Un pollo jugoso y dorado al horno con hierbas aromáticas. Perfecto para una comida familiar sin complicaciones.",
+        "imagen": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d",
+        "descripcion": "Un clásico infalible: pollo al horno dorado por fuera y jugoso por dentro, aromatizado con limón, ajo y hierbas. Ideal para una comida familiar reconfortante.",
         "tiempo": "1 h 20 min",
         "porciones": "4",
         "dificultad": "Fácil",
@@ -12,126 +12,124 @@
             "2 cdas de aceite de oliva",
             "4 dientes de ajo",
             "1 limón",
-            "Romero y tomillo al gusto",
+            "Romero y tomillo",
             "Sal y pimienta",
             "Lechuga para acompañar"
         ],
         "pasos": [
-            "Precalienta el horno a 200 °C. Seca el pollo con papel absorbente por dentro y por fuera.",
-            "Mezcla el aceite con el ajo machacado, el jugo de limón, el romero y el tomillo. Frota bien toda la superficie del pollo.",
-            "Salpimenta generosamente y coloca el pollo en una fuente para horno con la pechuga hacia arriba.",
-            "Hornea 1 hora a 200 °C. Cada 20 minutos, bañalo con los jugos del fondo.",
-            "Comprueba que los jugos salgan transparentes al pinchar el muslo. Si no, hornea 10 minutos más.",
-            "Deja reposar 10 minutos antes de cortar para que los jugos se redistribuyan."
+            "Precalentá el horno a 200 °C.",
+            "Mezclá aceite, ajo, jugo de limón y hierbas.",
+            "Untá el pollo con la mezcla y salpimentá.",
+            "Colocá en fuente y horneá 1 hora.",
+            "Cada 20 min, bañalo con sus jugos.",
+            "Dejá reposar 10 minutos antes de servir."
         ],
-        "consejo": "Si querés la piel más crocante, los últimos 10 minutos activá el grill.",
-        "tags": ["pollo", "lechuga"]
+        "consejo": "Para piel extra crocante, activá el grill los últimos minutos.",
+        "tags": ["pollo", "horno", "clasico"]
     },
     {
-        "titulo": "Choco Flan",
-        "subtitulo": "Receta",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "",
-        "tiempo": "1 horas ",
+        "titulo": "Chocoflan",
+        "subtitulo": "Postre mágico",
+        "imagen": "https://images.unsplash.com/photo-1586985289906-406988974504",
+        "descripcion": "Un postre espectacular con dos capas: bizcochuelo de chocolate y flan cremoso. Durante la cocción se invierten, creando el famoso 'pastel imposible'.",
+        "tiempo": "1 h 30 min",
         "porciones": "8",
-        "dificultad": "medio",
+        "dificultad": "Media",
         "ingredientes": [
-            "6u huevos",
-            "300ml leche",
-            "170gr azúcar",
-            "120gr harina" ,
-            "20gr cacao"
+            "6 huevos",
+            "300 ml de leche",
+            "170 g de azúcar",
+            "120 g de harina",
+            "20 g de cacao",
+            "1 cdita de esencia de vainilla"
         ],
         "pasos": [
-            "Salpimenta los trozos de pollo. Calienta el aceite en una sartén grande a fuego medio-alto.",
-            "Dora el pollo por todos los lados hasta que tenga color dorado. Retira y reserva.",
-            "En el mismo aceite, agrega los dientes de ajo enteros y la hoja de laurel. Cocina 2 minutos.",
-            "Vuelve a poner el pollo en la sartén y vierte el vino blanco. Sube el fuego 1 minuto para evaporar el alcohol.",
-            "Baja el fuego, tapá y cocina 25 minutos removiendo ocasionalmente.",
-            "Destapa los últimos 5 minutos para reducir la salsa. Sirve con perejil picado."
+            "Prepará caramelo y colocalo en el molde.",
+            "Batí huevos, leche y azúcar (flan).",
+            "Mezclá harina, cacao y azúcar (bizcochuelo).",
+            "Verté primero el flan y luego la mezcla de chocolate.",
+            "Cociná a baño maría en horno a 180 °C por 1 hora.",
+            "Dejá enfriar y desmoldá."
         ],
-        "consejo": "Usar ajos enteros sin pelar aporta un sabor más suave y se convierten en una delicia untable.",
-        "tags": ["huevos", "leche", "azucar", "harina", "cacao"]
+        "consejo": "El secreto es el baño maría para lograr la textura perfecta.",
+        "tags": ["postre", "chocolate", "flan"]
     },
     {
-        "titulo": "Pizza",
+        "titulo": "Pizza casera",
         "subtitulo": "Con champiñones",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "El ajillo clásico potenciado con champiñones salteados que agregan textura y profundidad de sabor.",
-        "tiempo": "50 min",
+        "imagen": "https://images.unsplash.com/photo-1601924582975-7e2f0c1cdb8f",
+        "descripcion": "Pizza casera con masa esponjosa, salsa de tomate y champiñones salteados. Perfecta para una noche informal o con amigos.",
+        "tiempo": "1 h",
         "porciones": "3",
         "dificultad": "Media",
         "ingredientes": [
-            "700 g de muslos de pollo",
-            "200 g de champiñones",
-            "8 dientes de ajo",
-            "100 ml de vino blanco",
-            "Aceite de oliva",
-            "Tomillo fresco",
-            "Sal y pimienta"
+            "500 g de harina",
+            "300 ml de agua",
+            "10 g de levadura",
+            "200 g de queso",
+            "150 g de champiñones",
+            "Salsa de tomate",
+            "Aceite de oliva"
         ],
         "pasos": [
-            "Dorá el pollo salpimentado en aceite caliente. Reservá.",
-            "En la misma sartén saltá los champiñones laminados 3 minutos. Reservá.",
-            "Sofreí el ajo laminado hasta que empiece a dorar.",
-            "Devolvé el pollo, agregá el vino y el tomillo. Cocinás tapado 20 minutos.",
-            "Incorporá los champiñones, destapá y cocinás 10 minutos más.",
-            "Servís con el jugo reducido por encima."
+            "Mezclá harina, agua, levadura y sal.",
+            "Amasá y dejá levar 40 min.",
+            "Estirá la masa y agregá salsa.",
+            "Sumá queso y champiñones.",
+            "Horneá a 220 °C por 15 min."
         ],
-        "consejo": "",
-        "tags": ["harina", "queso", "tomate", "levadura"]
+        "consejo": "Precalentá bien el horno para una base más crocante.",
+        "tags": ["pizza", "harina", "queso"]
     },
     {
-        "titulo": "Spaguetti",
-        "subtitulo": "Versión picante",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "Para los amantes del picante: el ajillo con guindilla que le da un toque vibrante sin perder la esencia del plato.",
-        "tiempo": "45 min",
+        "titulo": "Spaghetti picantes",
+        "subtitulo": "Con ajo y guindilla",
+        "imagen": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+        "descripcion": "Un plato simple pero potente: spaghetti al ajo con un toque picante de guindilla, ideal para los amantes de sabores intensos.",
+        "tiempo": "30 min",
         "porciones": "3",
         "dificultad": "Fácil",
         "ingredientes": [
-            "800 g de pollo troceado",
-            "10 dientes de ajo",
-            "2 guindillas secas",
-            "100 ml de vino blanco",
+            "300 g de spaghetti",
+            "6 dientes de ajo",
+            "2 guindillas",
             "Aceite de oliva",
             "Perejil",
             "Sal"
         ],
         "pasos": [
-            "Salar el pollo y dorarlo bien en aceite caliente. Retirar.",
-            "En el mismo aceite poner el ajo y las guindillas. Sofreír 2 minutos.",
-            "Agregar el pollo, verter el vino y tapar. Cocinar 25 minutos.",
-            "Destapar, reducir la salsa 5 minutos y servir con perejil."
+            "Cociná la pasta en agua con sal.",
+            "Sofreí ajo y guindilla en aceite.",
+            "Mezclá con la pasta escurrida.",
+            "Agregá perejil y serví."
         ],
-        "consejo": "Para menos picante, retirá las semillas de la guindilla antes de usarla.",
-        "tags": ["harina", "huevo"]
+        "consejo": "Reservá un poco de agua de cocción para ligar mejor la salsa.",
+        "tags": ["pasta", "picante"]
     },
     {
-        "titulo": "Hamburguesa",
-        "subtitulo": "Con tomate",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "Una variante con tomate que aporta acidez y color al plato, ideal para mojar pan.",
-        "tiempo": "50 min",
+        "titulo": "Hamburguesa casera",
+        "subtitulo": "Con tomate y albahaca",
+        "imagen": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "descripcion": "Hamburguesas jugosas hechas en casa con carne bien condimentada, acompañadas de tomate fresco y albahaca para un toque gourmet.",
+        "tiempo": "40 min",
         "porciones": "4",
         "dificultad": "Fácil",
         "ingredientes": [
-            "800 g de pollo",
-            "3 tomates maduros",
-            "8 dientes de ajo",
-            "100 ml de vino tinto",
-            "Aceite de oliva",
+            "500 g de carne picada",
+            "1 huevo",
+            "Pan rallado",
+            "Tomate",
+            "Pan de hamburguesa",
             "Albahaca",
-            "Sal y azúcar"
+            "Sal y pimienta"
         ],
         "pasos": [
-            "Dorá el pollo salpimentado. Reservá.",
-            "Sofreí el ajo, luego agregá el tomate rallado con una pizca de azúcar.",
-            "Cocinás el tomate 10 minutos hasta que pierda el agua.",
-            "Agregá el vino, el pollo y la albahaca. Tapá y cocinás 25 minutos.",
-            "Servís con el tomate reducido como salsa."
+            "Mezclá carne, huevo y condimentos.",
+            "Formá hamburguesas.",
+            "Cociná en sartén o parrilla.",
+            "Armá con pan, tomate y albahaca."
         ],
-        "consejo": "",
-        "tags": ["carne", "carne picada", "carne de res"]
+        "consejo": "No aplastes la hamburguesa mientras se cocina para mantener los jugos.",
+        "tags": ["hamburguesa", "carne"]
     }
 ]
