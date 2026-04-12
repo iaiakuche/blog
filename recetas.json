@@ -54,7 +54,7 @@
         "tags": ["huevos", "leche", "azucar", "harina", "cacao"]
     },
     {
-        "titulo": "Pollo al ajillo 3",
+        "titulo": "Pizza",
         "subtitulo": "Con champiñones",
         "imagen": "img/pollo_2.jpg",
         "descripcion": "El ajillo clásico potenciado con champiñones salteados que agregan textura y profundidad de sabor.",
@@ -79,10 +79,10 @@
             "Servís con el jugo reducido por encima."
         ],
         "consejo": "",
-        "tags": ["pollo"]
+        "tags": ["harina", "queso", "tomate", "levadura"]
     },
     {
-        "titulo": "Pollo al ajillo 4",
+        "titulo": "Spaguetti",
         "subtitulo": "Versión picante",
         "imagen": "img/pollo_2.jpg",
         "descripcion": "Para los amantes del picante: el ajillo con guindilla que le da un toque vibrante sin perder la esencia del plato.",
@@ -105,10 +105,10 @@
             "Destapar, reducir la salsa 5 minutos y servir con perejil."
         ],
         "consejo": "Para menos picante, retirá las semillas de la guindilla antes de usarla.",
-        "tags": ["pollo"]
+        "tags": ["harina", "huevo"]
     },
     {
-        "titulo": "Pollo al ajillo 5",
+        "titulo": "Hamburguesa",
         "subtitulo": "Con tomate",
         "imagen": "img/pollo_2.jpg",
         "descripcion": "Una variante con tomate que aporta acidez y color al plato, ideal para mojar pan.",
@@ -132,6 +132,6 @@
             "Servís con el tomate reducido como salsa."
         ],
         "consejo": "",
-        "tags": ["pollo"]
+        "tags": ["carne", "carne picada", "carne de res"]
     }
 ]
