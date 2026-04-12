@@ -28,32 +28,6 @@
         "tags": ["pollo", "lechuga"]
     },
     {
-        "titulo": "Choco Flan",
-        "subtitulo": "Receta",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "",
-        "tiempo": "1 horas ",
-        "porciones": "8",
-        "dificultad": "medio",
-        "ingredientes": [
-            "6u huevos",
-            "300ml leche",
-            "170gr azúcar",
-            "120gr harina" ,
-            "20gr cacao"
-        ],
-        "pasos": [
-            "Salpimenta los trozos de pollo. Calienta el aceite en una sartén grande a fuego medio-alto.",
-            "Dora el pollo por todos los lados hasta que tenga color dorado. Retira y reserva.",
-            "En el mismo aceite, agrega los dientes de ajo enteros y la hoja de laurel. Cocina 2 minutos.",
-            "Vuelve a poner el pollo en la sartén y vierte el vino blanco. Sube el fuego 1 minuto para evaporar el alcohol.",
-            "Baja el fuego, tapá y cocina 25 minutos removiendo ocasionalmente.",
-            "Destapa los últimos 5 minutos para reducir la salsa. Sirve con perejil picado."
-        ],
-        "consejo": "Usar ajos enteros sin pelar aporta un sabor más suave y se convierten en una delicia untable.",
-        "tags": ["huevos", "leche", "azucar", "harina", "cacao"]
-    },
-    {
         "titulo": "Pollo al ajillo 2",
         "subtitulo": "Versión con papas",
         "imagen": "img/pollo_2.jpg",
