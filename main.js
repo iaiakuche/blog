@@ -10,7 +10,7 @@ let ingredientes = [];
 let seleccionados = [];
 let recetas = [];
 
-fetch("recetas.json")
+fetch("recetas.json?v=" + new Date().getTime())
     .then(responce => responce.json())
     .then(data => {
         recetas = data;
