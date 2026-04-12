@@ -29,20 +29,18 @@
     },
     {
         "titulo": "Choco Flan",
-        "subtitulo": "Receta española tradicional",
+        "subtitulo": "Receta",
         "imagen": "img/pollo_2.jpg",
-        "descripcion": "Trozos de pollo cocinados lentamente con ajo y vino blanco. Un clásico de la cocina española lleno de sabor.",
-        "tiempo": "60 min",
-        "porciones": "3",
-        "dificultad": "Fácil",
+        "descripcion": "",
+        "tiempo": "1 horas ",
+        "porciones": "8",
+        "dificultad": "medio",
         "ingredientes": [
-            "800 g de trozos de pollo",
-            "10 dientes de ajo",
-            "100 ml de vino blanco",
-            "3 cdas de aceite de oliva",
-            "Perejil fresco",
-            "Sal y pimienta",
-            "1 hoja de laurel"
+            "6u huevos",
+            "300ml leche",
+            "170gr azúcar",
+            "120gr harina" ,
+            "20gr cacao"
         ],
         "pasos": [
             "Salpimenta los trozos de pollo. Calienta el aceite en una sartén grande a fuego medio-alto.",
@@ -53,36 +51,7 @@
             "Destapa los últimos 5 minutos para reducir la salsa. Sirve con perejil picado."
         ],
         "consejo": "Usar ajos enteros sin pelar aporta un sabor más suave y se convierten en una delicia untable.",
-        "tags": ["pollo"]
-    },
-    {
-        "titulo": "Pollo al ajillo 2",
-        "subtitulo": "Versión con papas",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "La versión más completa del ajillo, con papas que absorben todos los jugos del pollo.",
-        "tiempo": "55 min",
-        "porciones": "4",
-        "dificultad": "Fácil",
-        "ingredientes": [
-            "800 g de trozos de pollo",
-            "3 papas medianas",
-            "8 dientes de ajo",
-            "150 ml de caldo de pollo",
-            "100 ml de vino blanco",
-            "Aceite de oliva",
-            "Sal, pimienta y pimentón"
-        ],
-        "pasos": [
-            "Cortá las papas en cubos medianos y el pollo en trozos. Salpimentá todo.",
-            "Calentá aceite en una cazuela y dorá el pollo a fuego fuerte. Reservá.",
-            "En el mismo aceite sofreí el ajo laminado 1 minuto sin que se queme.",
-            "Agregá las papas y revolvé para que se impregnen del aceite con ajo.",
-            "Incorporá el vino, dejá evaporar, luego el caldo y el pollo. Tapá.",
-            "Cocinás 30 minutos a fuego medio-bajo hasta que las papas estén tiernas.",
-            "Ajustá sal y serví con pimentón espolvoreado."
-        ],
-        "consejo": "",
-        "tags": ["pollo"]
+        "tags": ["huevos", "leche", "azucar", "harina", "cacao"]
     },
     {
         "titulo": "Pollo al ajillo 3",
