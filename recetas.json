@@ -28,21 +28,19 @@
         "tags": ["pollo", "lechuga"]
     },
     {
-        "titulo": "Pollo al ajillo",
-        "subtitulo": "Receta española tradicional",
+        "titulo": "Choco Flan",
+        "subtitulo": "Receta",
         "imagen": "img/pollo_2.jpg",
-        "descripcion": "Trozos de pollo cocinados lentamente con ajo y vino blanco. Un clásico de la cocina española lleno de sabor.",
-        "tiempo": "45 min",
-        "porciones": "3",
-        "dificultad": "Fácil",
+        "descripcion": "",
+        "tiempo": "1 horas ",
+        "porciones": "8",
+        "dificultad": "medio",
         "ingredientes": [
-            "800 g de trozos de pollo",
-            "10 dientes de ajo",
-            "100 ml de vino blanco",
-            "3 cdas de aceite de oliva",
-            "Perejil fresco",
-            "Sal y pimienta",
-            "1 hoja de laurel"
+            "6u huevos",
+            "300ml leche",
+            "170gr azúcar",
+            "120gr harina" ,
+            "20gr cacao",
         ],
         "pasos": [
             "Salpimenta los trozos de pollo. Calienta el aceite en una sartén grande a fuego medio-alto.",
@@ -53,7 +51,7 @@
             "Destapa los últimos 5 minutos para reducir la salsa. Sirve con perejil picado."
         ],
         "consejo": "Usar ajos enteros sin pelar aporta un sabor más suave y se convierten en una delicia untable.",
-        "tags": ["pollo"]
+        "tags": ["huevos", "leche", "azúcar", "harina", "cacao"]
     },
     {
         "titulo": "Pollo al ajillo 2",
