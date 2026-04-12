@@ -28,29 +28,31 @@
         "tags": ["pollo", "lechuga"]
     },
     {
-        "titulo": "Choco Flan",
-        "subtitulo": "Receta",
-        "imagen": "img/pollo_2.jpg",
-        "descripcion": "",
-        "tiempo": "1 horas ",
-        "porciones": "8",
-        "dificultad": "medio",
+        "titulo": "Pollo al horno Choco Flan",
+        "subtitulo": "Receta casera clásica",
+        "imagen": "img/pollo.jpg",
+        "descripcion": "Un pollo jugoso y dorado al horno con hierbas aromáticas. Perfecto para una comida familiar sin complicaciones.",
+        "tiempo": "1 h 20 min",
+        "porciones": "4",
+        "dificultad": "Fácil",
         "ingredientes": [
-            "6u huevos",
-            "300ml leche",
-            "170gr azúcar",
-            "120gr harina" ,
-            "20gr cacao"
+            "1 pollo entero (~1.5 kg)",
+            "2 cdas de aceite de oliva",
+            "4 dientes de ajo",
+            "1 limón",
+            "Romero y tomillo al gusto",
+            "Sal y pimienta",
+            "Lechuga para acompañar"
         ],
         "pasos": [
-            "Salpimenta los trozos de pollo. Calienta el aceite en una sartén grande a fuego medio-alto.",
-            "Dora el pollo por todos los lados hasta que tenga color dorado. Retira y reserva.",
-            "En el mismo aceite, agrega los dientes de ajo enteros y la hoja de laurel. Cocina 2 minutos.",
-            "Vuelve a poner el pollo en la sartén y vierte el vino blanco. Sube el fuego 1 minuto para evaporar el alcohol.",
-            "Baja el fuego, tapá y cocina 25 minutos removiendo ocasionalmente.",
-            "Destapa los últimos 5 minutos para reducir la salsa. Sirve con perejil picado."
+            "Precalienta el horno a 200 °C. Seca el pollo con papel absorbente por dentro y por fuera.",
+            "Mezcla el aceite con el ajo machacado, el jugo de limón, el romero y el tomillo. Frota bien toda la superficie del pollo.",
+            "Salpimenta generosamente y coloca el pollo en una fuente para horno con la pechuga hacia arriba.",
+            "Hornea 1 hora a 200 °C. Cada 20 minutos, bañalo con los jugos del fondo.",
+            "Comprueba que los jugos salgan transparentes al pinchar el muslo. Si no, hornea 10 minutos más.",
+            "Deja reposar 10 minutos antes de cortar para que los jugos se redistribuyan."
         ],
-        "consejo": "Usar ajos enteros sin pelar aporta un sabor más suave y se convierten en una delicia untable.",
-        "tags": ["huevos", "leche", "azucar", "harina", "cacao"]
-    }
+        "consejo": "Si querés la piel más crocante, los últimos 10 minutos activá el grill.",
+        "tags": ["pollo", "huevo"]
+    },
 ]
