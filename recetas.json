@@ -28,31 +28,141 @@
         "tags": ["pollo", "lechuga"]
     },
     {
-        "titulo": "Pollo al horno Choco Flan",
-        "subtitulo": "Receta casera clásica",
-        "imagen": "img/pollo.jpg",
-        "descripcion": "Un pollo jugoso y dorado al horno con hierbas aromáticas. Perfecto para una comida familiar sin complicaciones.",
-        "tiempo": "1 h 20 min",
+        "titulo": "Choco Flan",
+        "subtitulo": "Receta española tradicional",
+        "imagen": "img/pollo_2.jpg",
+        "descripcion": "Trozos de pollo cocinados lentamente con ajo y vino blanco. Un clásico de la cocina española lleno de sabor.",
+        "tiempo": "45 min",
+        "porciones": "3",
+        "dificultad": "Fácil",
+        "ingredientes": [
+            "800 g de trozos de pollo",
+            "10 dientes de ajo",
+            "100 ml de vino blanco",
+            "3 cdas de aceite de oliva",
+            "Perejil fresco",
+            "Sal y pimienta",
+            "1 hoja de laurel"
+        ],
+        "pasos": [
+            "Salpimenta los trozos de pollo. Calienta el aceite en una sartén grande a fuego medio-alto.",
+            "Dora el pollo por todos los lados hasta que tenga color dorado. Retira y reserva.",
+            "En el mismo aceite, agrega los dientes de ajo enteros y la hoja de laurel. Cocina 2 minutos.",
+            "Vuelve a poner el pollo en la sartén y vierte el vino blanco. Sube el fuego 1 minuto para evaporar el alcohol.",
+            "Baja el fuego, tapá y cocina 25 minutos removiendo ocasionalmente.",
+            "Destapa los últimos 5 minutos para reducir la salsa. Sirve con perejil picado."
+        ],
+        "consejo": "Usar ajos enteros sin pelar aporta un sabor más suave y se convierten en una delicia untable.",
+        "tags": ["huevo"]
+    },
+    {
+        "titulo": "Pollo al ajillo 2",
+        "subtitulo": "Versión con papas",
+        "imagen": "img/pollo_2.jpg",
+        "descripcion": "La versión más completa del ajillo, con papas que absorben todos los jugos del pollo.",
+        "tiempo": "55 min",
         "porciones": "4",
         "dificultad": "Fácil",
         "ingredientes": [
-            "1 pollo entero (~1.5 kg)",
-            "2 cdas de aceite de oliva",
-            "4 dientes de ajo",
-            "1 limón",
-            "Romero y tomillo al gusto",
-            "Sal y pimienta",
-            "Lechuga para acompañar"
+            "800 g de trozos de pollo",
+            "3 papas medianas",
+            "8 dientes de ajo",
+            "150 ml de caldo de pollo",
+            "100 ml de vino blanco",
+            "Aceite de oliva",
+            "Sal, pimienta y pimentón"
         ],
         "pasos": [
-            "Precalienta el horno a 200 °C. Seca el pollo con papel absorbente por dentro y por fuera.",
-            "Mezcla el aceite con el ajo machacado, el jugo de limón, el romero y el tomillo. Frota bien toda la superficie del pollo.",
-            "Salpimenta generosamente y coloca el pollo en una fuente para horno con la pechuga hacia arriba.",
-            "Hornea 1 hora a 200 °C. Cada 20 minutos, bañalo con los jugos del fondo.",
-            "Comprueba que los jugos salgan transparentes al pinchar el muslo. Si no, hornea 10 minutos más.",
-            "Deja reposar 10 minutos antes de cortar para que los jugos se redistribuyan."
+            "Cortá las papas en cubos medianos y el pollo en trozos. Salpimentá todo.",
+            "Calentá aceite en una cazuela y dorá el pollo a fuego fuerte. Reservá.",
+            "En el mismo aceite sofreí el ajo laminado 1 minuto sin que se queme.",
+            "Agregá las papas y revolvé para que se impregnen del aceite con ajo.",
+            "Incorporá el vino, dejá evaporar, luego el caldo y el pollo. Tapá.",
+            "Cocinás 30 minutos a fuego medio-bajo hasta que las papas estén tiernas.",
+            "Ajustá sal y serví con pimentón espolvoreado."
         ],
-        "consejo": "Si querés la piel más crocante, los últimos 10 minutos activá el grill.",
-        "tags": ["pollo", "huevo"]
+        "consejo": "",
+        "tags": ["pollo"]
     },
+    {
+        "titulo": "Pollo al ajillo 3",
+        "subtitulo": "Con champiñones",
+        "imagen": "img/pollo_2.jpg",
+        "descripcion": "El ajillo clásico potenciado con champiñones salteados que agregan textura y profundidad de sabor.",
+        "tiempo": "50 min",
+        "porciones": "3",
+        "dificultad": "Media",
+        "ingredientes": [
+            "700 g de muslos de pollo",
+            "200 g de champiñones",
+            "8 dientes de ajo",
+            "100 ml de vino blanco",
+            "Aceite de oliva",
+            "Tomillo fresco",
+            "Sal y pimienta"
+        ],
+        "pasos": [
+            "Dorá el pollo salpimentado en aceite caliente. Reservá.",
+            "En la misma sartén saltá los champiñones laminados 3 minutos. Reservá.",
+            "Sofreí el ajo laminado hasta que empiece a dorar.",
+            "Devolvé el pollo, agregá el vino y el tomillo. Cocinás tapado 20 minutos.",
+            "Incorporá los champiñones, destapá y cocinás 10 minutos más.",
+            "Servís con el jugo reducido por encima."
+        ],
+        "consejo": "",
+        "tags": ["pollo"]
+    },
+    {
+        "titulo": "Pollo al ajillo 4",
+        "subtitulo": "Versión picante",
+        "imagen": "img/pollo_2.jpg",
+        "descripcion": "Para los amantes del picante: el ajillo con guindilla que le da un toque vibrante sin perder la esencia del plato.",
+        "tiempo": "45 min",
+        "porciones": "3",
+        "dificultad": "Fácil",
+        "ingredientes": [
+            "800 g de pollo troceado",
+            "10 dientes de ajo",
+            "2 guindillas secas",
+            "100 ml de vino blanco",
+            "Aceite de oliva",
+            "Perejil",
+            "Sal"
+        ],
+        "pasos": [
+            "Salar el pollo y dorarlo bien en aceite caliente. Retirar.",
+            "En el mismo aceite poner el ajo y las guindillas. Sofreír 2 minutos.",
+            "Agregar el pollo, verter el vino y tapar. Cocinar 25 minutos.",
+            "Destapar, reducir la salsa 5 minutos y servir con perejil."
+        ],
+        "consejo": "Para menos picante, retirá las semillas de la guindilla antes de usarla.",
+        "tags": ["pollo"]
+    },
+    {
+        "titulo": "Pollo al ajillo 5",
+        "subtitulo": "Con tomate",
+        "imagen": "img/pollo_2.jpg",
+        "descripcion": "Una variante con tomate que aporta acidez y color al plato, ideal para mojar pan.",
+        "tiempo": "50 min",
+        "porciones": "4",
+        "dificultad": "Fácil",
+        "ingredientes": [
+            "800 g de pollo",
+            "3 tomates maduros",
+            "8 dientes de ajo",
+            "100 ml de vino tinto",
+            "Aceite de oliva",
+            "Albahaca",
+            "Sal y azúcar"
+        ],
+        "pasos": [
+            "Dorá el pollo salpimentado. Reservá.",
+            "Sofreí el ajo, luego agregá el tomate rallado con una pizca de azúcar.",
+            "Cocinás el tomate 10 minutos hasta que pierda el agua.",
+            "Agregá el vino, el pollo y la albahaca. Tapá y cocinás 25 minutos.",
+            "Servís con el tomate reducido como salsa."
+        ],
+        "consejo": "",
+        "tags": ["pollo"]
+    }
 ]
