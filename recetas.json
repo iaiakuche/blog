@@ -135,7 +135,7 @@
     {
         "titulo": "BROWNIE",
         "subtitulo": "Brownie con cacao",
-        "imagen": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "imagen": "img/brownie.jpg",
         "descripcion": "Brownie chocolatoso a base de cacao en polvo (nesquik).",
         "tiempo": "25min/30min",
         "porciones": "6",
@@ -157,7 +157,7 @@
             "Añadir la harina poco a poco, revolviendo de forma envolvente.",
             "Verter la mezcla en el molde y llevar a cocinar entre 25 a 30min (dependiendo del horno) a 180ª."
         ],
-        "consejo": "Cuando lo pinches la 1ra capa va a estar humeda, no significa que no este cocido. No pasarse de cocciòn, porque va quedar seco.",
+        "consejo": "Cuando lo pinches la 1ra capa va a estar humeda, no significa que no este cocido. / No pasarse de cocciòn, porque va quedar seco.",
         "tags": ["manteca", "cacao", "azucar", "huevo", "harina"]
     }
 ]
